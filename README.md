@@ -2,7 +2,7 @@
 
 A modern, high-performance, responsive personal brand website for **Muhammad Nabeel P.A.**, Entrepreneur, Founder of NB Group of Companies, and Co-Founder of 3G Brandversity.
 
-Built using **HTML5**, **CSS3**, and **Vanilla JavaScript** with a curated **White & Blue** color palette, typography from Google Fonts (*Plus Jakarta Sans*), accessible semantics, and direct WhatsApp consultation booking flows.
+Built using **HTML5**, **CSS3**, and **Vanilla JavaScript** with a curated **Black & Neon Purple** color palette, classic **Times New Roman** typography, accessible semantics, and direct WhatsApp consultation booking flows.
 
 ---
 
@@ -12,7 +12,8 @@ Built using **HTML5**, **CSS3**, and **Vanilla JavaScript** with a curated **Whi
 nabeel-portfolio/
 │
 ├── index.html              # Home page
-├── about.html              # Biography, vision, mission, ventures, events, awards
+├── about.html              # Biography, vision, mission, journey, events, awards
+├── ventures.html           # Full ventures portfolio across the business ecosystem
 ├── consultation.html       # 3 consultation services, booking guide, FAQ
 ├── contact.html            # Direct contact channels and social networks
 │
@@ -124,7 +125,7 @@ You can deploy this static website to any hosting provider without servers or co
 
 ### Post-Deployment SEO Configuration
 Once your custom domain is live (e.g., `https://muhammadnabeel.com`):
-- Open `index.html`, `about.html`, `consultation.html`, and `contact.html`.
+- Open `index.html`, `about.html`, `ventures.html`, `consultation.html`, and `contact.html`.
 - Update the `<meta property="og:url">` tags to your domain URL.
 - Update `<meta property="og:image">` to your absolute URL (e.g., `https://yourdomain.com/assets/images/nabeel-profile.webp`).
 
@@ -132,11 +133,10 @@ Once your custom domain is live (e.g., `https://muhammadnabeel.com`):
 
 ## 7. Color Palette Reference
 
-- **Primary Blue:** `#155EEF` (buttons, key highlights, badges, icons)
-- **Deep Blue:** `#123B7A` (headings, accents, footer, high-contrast elements)
-- **Light Blue:** `#EAF2FF` (badge backings, subtle tints, icon backgrounds)
-- **Pale Blue:** `#F5F8FF` (alternate section backgrounds)
-- **White:** `#FFFFFF` (primary canvas, cards)
-- **Primary Text:** `#172B4D`
-- **Secondary Text:** `#667085`
-- **Border:** `#DCE5F2`
+- **Black:** `#000000` (page background, header, footer)
+- **Dark Surface:** `#0C0812` (cards and raised panels)
+- **Neon Purple:** `#B026FF` (headings, navigation, labels, links, buttons)
+- **Electric Purple:** `#8B00FF` (secondary headings and accents)
+- **White:** `#FFFFFF` (paragraphs and body copy)
+- **Border:** `#3A1450`
+- **Glow:** `rgba(176, 38, 255, 0.22)` (neon shadows and highlights)
