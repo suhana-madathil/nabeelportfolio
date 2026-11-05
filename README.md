@@ -2,7 +2,7 @@
 
 A modern, high-performance, responsive personal brand website for **Muhammad Nabeel P.A.**, Entrepreneur, Founder of NB Group of Companies, and Co-Founder of 3G Brandversity.
 
-Built using **HTML5**, **CSS3**, and **Vanilla JavaScript** with a curated **Black & Neon Purple** color palette, classic **Times New Roman** typography, accessible semantics, and direct WhatsApp consultation booking flows.
+Built using **HTML5**, **CSS3**, and **Vanilla JavaScript** with a curated **Black & Electric Blue** color palette, **Space Grotesk** headings paired with classic **Times New Roman** body text, accessible semantics, and direct WhatsApp consultation booking flows.
 
 ---
 
@@ -134,9 +134,9 @@ Once your custom domain is live (e.g., `https://muhammadnabeel.com`):
 ## 7. Color Palette Reference
 
 - **Black:** `#000000` (page background, header, footer)
-- **Dark Surface:** `#0C0812` (cards and raised panels)
-- **Neon Purple:** `#B026FF` (headings, navigation, labels, links, buttons)
-- **Electric Purple:** `#8B00FF` (secondary headings and accents)
+- **Dark Surface:** `#08111F` (cards and raised panels)
+- **Electric Blue:** `#3B82F6` (navigation, labels, links, buttons)
+- **Deep Blue:** `#1D4ED8` (secondary accents and glows)
 - **White:** `#FFFFFF` (paragraphs and body copy)
-- **Border:** `#3A1450`
-- **Glow:** `rgba(176, 38, 255, 0.22)` (neon shadows and highlights)
+- **Border:** `#1F3A5F`
+- **Glow:** `rgba(59, 130, 246, 0.22)` (blue shadows and highlights)
