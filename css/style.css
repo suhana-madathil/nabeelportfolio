@@ -597,7 +597,7 @@ section {
   gap: 1px;
   margin-top: clamp(3rem, 5.5vw, 5rem);
   overflow: hidden;
-  background: var(--border);
+  background: transparent;
   border: 1px solid var(--border);
 }
 
@@ -611,7 +611,7 @@ section {
   height: 100%;
   object-fit: contain;
   object-position: 50% 50%;
-  background: #e7e6df;
+  background: transparent;
 }
 
 .id-card {
