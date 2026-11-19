@@ -379,6 +379,40 @@
       });
     }
 
+    // Allow clicking event cards in Selected Sessions & Events to open in lightbox
+    const eventCards = document.querySelectorAll('.event-card');
+    eventCards.forEach((card) => {
+      const handleOpen = () => {
+        const imgSrc = card.getAttribute('data-event-img');
+        const imgTitle = card.getAttribute('data-event-title') || 'Event photograph';
+        if (!imgSrc) return;
+
+        const filename = imgSrc.split('/').pop();
+        const galleryIndex = galleryImages.indexOf(filename);
+
+        if (galleryIndex !== -1) {
+          openLightbox(galleryIndex);
+        } else {
+          lightboxImg.src = imgSrc;
+          lightboxImg.alt = imgTitle;
+          if (lightboxCounter) {
+            lightboxCounter.textContent = imgTitle;
+          }
+          lightbox.classList.add('active');
+          document.body.style.overflow = 'hidden';
+          if (closeBtn) closeBtn.focus();
+        }
+      };
+
+      card.addEventListener('click', handleOpen);
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handleOpen();
+        }
+      });
+    });
+
     if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
     if (prevBtn) prevBtn.addEventListener('click', (e) => { e.stopPropagation(); showPrev(); });
     if (nextBtn) nextBtn.addEventListener('click', (e) => { e.stopPropagation(); showNext(); });
